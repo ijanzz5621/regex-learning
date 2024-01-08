@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "regex-tutorial"
+version = "0.1.0"
+description = "learning regex expression"
+authors = ["Sharizan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
