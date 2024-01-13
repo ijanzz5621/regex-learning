@@ -1,0 +1,26 @@
+link: https://www.youtube.com/watch?v=vsa9GGzMFXQ
+last pause: 8:26
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+0123456789
+
+love move give
+
+ace     bad     cat     dry     eve
+away    bent    crow    dove    ends
+attic   brand   crypt   dried   event
+annoys  baller  camera  diving  ethics
+
+
+sample regex:
+=============
+
+[a-z][a-z]ve                    result: love, move, give dove
+
+\b[abcde]+\b                     result: ace, bad
+
+
+
+
+
