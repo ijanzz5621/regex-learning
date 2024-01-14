@@ -1,0 +1,10 @@
+<html This is only for regex testing </html>
+
+
+Greedy:
+
+<.+>                    Result: <html This is only for regex testing </html>
+
+Lazy (include ?):
+
+<.+?>                   Result: <html>, </html>

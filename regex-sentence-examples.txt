@@ -15,5 +15,6 @@ Cybersecurity will be so advanced, hackers will have to resort to using actual s
 In the future, we'll all communicate through a universal language made up entirely of emojis.
 
 
+^[A-Z].*\.$                       Result: Robots will take over the world, but they'll do it in style. [and more]
 
 
