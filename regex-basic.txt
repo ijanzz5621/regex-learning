@@ -18,7 +18,18 @@ sample regex:
 
 [a-z][a-z]ve                    result: love, move, give dove
 
-\b[abcde]+\b                     result: ace, bad
+\b[abcde]+\b                    result: ace, bad
+
+\b[^aeiou\s]+\b                 result: dry, crypt, 01234567890
+
+\b[a-z]{3}\b                    result: ace, bad, cat, dry, etc..
+
+\b[a-z]{3,4}\b                  result: ace, away, bad, bent
+
+\b[a-z]{,4}\b                   result: (can be any minimum but only 4 max characted allowed)
+
+\b[a-z]{2,}\b                   result (can be any maksimum but only 2 minimum characters allowed)
+
 
 
 
