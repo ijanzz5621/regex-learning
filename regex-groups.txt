@@ -1,0 +1,28 @@
+123456789
+999000999
+8712388411235
+
+mississippi
+bookkeeping
+aggressive
+words
+
+kEiTh@coolcat.com
+
+
+
+\d*123\d*123\d*                     result: 8712388411235
+
+\d*(\d{3})\d*(\d{3})\d*             result: 123456789, 999000999, 8712388411235
+
+\d*(\d{3})\d*\1\d*                  result: 999000999, 8712388411235                remark: \1 mean repeat what a group 1 (\d{3}) found
+
+\w*(\w)\1\w*(\w)\2\w*(\w)\3\w*      result: 999000999, mississippi, bookkeeping     remark: find a repeating character that occurs three times in a row
+
+# Non capturing group - add ?: in the group parenthesis
+(?:[a-z][A-Z])+[a-z]*\@(\w+\.\w+)   result: group \1 will be coolcat.com and not kEiTh
+
+
+
+
+
