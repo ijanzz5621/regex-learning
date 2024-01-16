@@ -1,0 +1,14 @@
+text = in integer insert in insert integer
+
+# atomic group 1
+================
+
+\b(?>integer|insert|in)\b              Result: in integer insert in insert integer
+
+
+# atomic group 2
+================
+
+\b(?>in|integer|insert)\b              Result: in, in       Remark: When in reach 2nd word integer, it try to parse the end \b, and it fail,
+                                                                    it will skip it and proceed with the next word
+
